@@ -1,0 +1,23 @@
+.container_grid {
+    padding-top: 100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 4fr  6fr;
+    grid-template-rows: 50px 50px;
+    grid-gap: 3px;
+    margin: auto;
+  
+  }
+
+  .container_grid div {
+    border: 1px solid tomato;
+  }
+  .lander_header {
+    font-size: 40px;
+    color: #113255;
+
+  }
+
+  .lander_background {
+    background-image: url('../public/images/prntsbackground.png');
+  }

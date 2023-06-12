@@ -1,0 +1,190 @@
+.nav {
+    display: flex;
+
+    background-color: white;
+    justify-content: space-between;
+    padding: 10px 60px;
+    font-size: 14px;
+    font-weight: 600;
+    height: 70px;
+    position: absolute;
+    width: 100vw;
+    z-index: 5;
+
+}
+
+.nav ul {
+    list-style: none;
+
+
+}
+
+
+.nav ul li {
+    float: left;
+    padding: 10px 20px;
+}
+
+.nav ul.mobile {
+    position: absolute;
+    left: 0;
+    
+    display: none;
+
+    width: 100%;
+    height: 700px;
+    background-color: white;
+    z-index: -1;
+}
+
+.down {
+    top: 60px;
+    animation-name: downer;
+    animation-duration: 2s;
+
+}
+
+.up {
+    top: -1000px;
+    animation-name: upper;
+    animation-duration: 2s;
+}
+
+.start {
+    top: -1000px;
+}
+
+.nav ul.mobile li{
+   float: none;
+   margin: 40px auto;
+   text-align: center;
+   
+}
+
+
+.members {
+    color: grey;
+}
+
+.cta {
+    
+}
+
+.nav .cta li {
+    margin-left: 5px;
+    padding: 10px 20px;
+    
+}
+
+.nav ul li.highlight {
+    background-color: #DBF5F8;
+    padding: 10px 25px;
+    border-radius: 20px;
+
+}
+
+.menu {
+   
+   cursor: pointer;
+   margin-top: 10px;
+   display: none;
+}
+
+.menuopen {
+  cursor: pointer;
+  display: none;
+  
+   
+}
+
+.nav li.menu span {
+    padding: 0;
+    display: block;
+    height: 1px;
+    width: 30px;
+    margin-bottom: 5px;
+    background-color: #113255;
+    
+}
+
+.nav li.menu span:first-child {
+    transform: rotate(45deg);
+    position: absolute;
+    transition: transform 1s;
+  }
+
+  .nav li.menu span:nth-child(2) {
+    visibility: hidden;
+  }
+  .nav li.menu span:last-child {
+    transform: rotate(-45deg);
+    position: absolute;
+    margin-top: -6px;
+    transition: transform 1s;
+  }
+
+  .nav li.menuopen span {
+    padding: 0;
+    display: block;
+    height: 1px;
+    width: 30px;
+    margin-bottom: 10px;
+    background-color: #113255;
+    transition: all 1s;
+}
+
+
+
+@media (max-width:1200px) {
+    .nav {
+        padding: 10px 20px;
+    }
+
+    
+     
+}
+
+@media (max-width:890px) {
+    .nav {
+        padding: 10px 60px;
+    }
+
+    .members {
+        display: none;
+    }
+    .nav ul.mobile {
+        display: block;
+    }
+    .menu {
+   
+        
+        display: block;
+     }
+     
+     .menuopen {
+      
+       display: block;
+       
+        
+     }
+}
+
+@media (max-width:600px) {
+    .btncta{
+        border: 1px solid red;
+        display: none;
+    
+    }
+  
+  
+}
+
+@keyframes downer{
+    0%   {top:-1000px;}
+    100% {top:60px;}
+  }
+
+  @keyframes upper{
+    0%   {top:60px;}
+    100% {top:-1000px;}
+  }
