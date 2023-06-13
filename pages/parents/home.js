@@ -8,7 +8,7 @@ export default function Home() {
   const router = useRouter()
   const path = router.pathname
   return (
-    <div className={styles.container}>
+    < >
       <Head>
         <title>Gradely Summer School</title>
         <meta name="description" content="Summer school for gradely" />
@@ -18,7 +18,7 @@ export default function Home() {
      
      
 
-    </div>
+    </>
   )
 }
 Home.getLayout = function getLayout(page) {
