@@ -64,11 +64,13 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps(context) {
-  //console.log("this is context", context);
-  // const id = context?.params.cat;
-  // const { allEvents } = await import('/data/data.json');
+  const id = context?.params.home;
+  console.log("id is", id)
+  const { hero_section } = await import('/data/data.json');
 
-  // const data = allEvents.filter((ev) => ev.city === id);
+  const data = hero_section.filter((ev) => ev.id === id);
+console.log("data is", data)
+  return { props: { data, pageName: id } };
 
-  return { props: { data: "" } };
+ 
 }

@@ -1,0 +1,44 @@
+{
+    "hero_section": [
+        {
+            "id":"home",
+            "title":"Master difficult topics. Get better grades",
+            "title_bold":true,
+            "description":"FOR PRIMARY & SECONDARY STUDENTS",
+            "button_text":"TAKE A PRE TEST",
+            "background_image":"orange",
+            "main_image":{"path":"/images/parentsphone.png","width":258, "height":475},
+            "supporting_image_one":{"path":"/images/tutor.png", "width":179, "height":120},
+            "supporting_image_two":{"path":"/images/featureone.png", "width":240,"height":170},
+            "supporting_image_three":{"path":"/images/plays.png","width":121,"height":52},
+            "supporting_image_four":{"path":"/images/featuretwo.png","width":250,"height":68}
+        },
+        {
+            "id":"exam-prep",
+            "title":"Excel at your Common Entrance, WAEC, IGCSE and SAT exams with Gradely",
+            "title_bold":false,
+            "description":null,
+            "button_text":"Start Preparing",
+            "background_image":"blue",
+            "main_image":{"path":"/images/parentsphone.png","width":258, "height":475},
+            "supporting_image_one":{"path":"/images/feature_three_blue.png", "width":179, "height":120},
+            "supporting_image_two":{"path":"/images/feature_two_blue.png", "width":240,"height":170},
+            "supporting_image_three":{"path":"/images/tutor.png", "width":179, "height":120},
+            "supporting_image_four":{"path":"/images/feature_four_blue.png","width":250,"height":68}
+        },
+        {
+            "id":"tutoring",
+            "title":"The Best and Brightest Tutors for Your Child's Needs",
+            "title_bold":true,
+            "subtitle":"Tailored 1-on-1 sessions or group lessons for your child's exam preparation, homework help, and homeschooling needs.",
+            "description":"Any subject. Anytime.",
+            "button_text":"Book a Counseling Session",
+            "background_image":"blue",
+            "main_image":{"path":"/images/parentsphone.png","width":258, "height":475},
+            "supporting_image_one":{"path":"/images/feature_three_blue.png", "width":179, "height":120},
+            "supporting_image_two":{"path":"/images/feature_two_blue.png", "width":240,"height":170},
+            "supporting_image_three":{"path":"/images/tutor.png", "width":179, "height":120},
+            "supporting_image_four":{"path":"/images/feature_four_blue.png","width":250,"height":68}
+        }
+    ] 
+}
