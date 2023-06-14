@@ -5,7 +5,8 @@ import Link from 'next/link'
 
 export default function ParentNav() {
   const router = useRouter()
-  const path = router.pathname
+  const path = router.asPath
+  console.log(router.asPath)
   return (
     <div className={styles.container}>
 

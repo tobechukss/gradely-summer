@@ -8,7 +8,7 @@ export default function Lander() {
                     <h1 className={lander_styles.lander_header}>Master difficult topics.
                         Get better grades </h1>
                     <p className={lander_styles.descr}>FOR PRIMARY & SECONDARY STUDENTS</p>
-                    <button className='btn btn-secondary'>TAKE A PRE TEST</button>
+                    <button className='btn btn-secondary btn-big'>TAKE A PRE TEST</button>
                 </div>
                 <div className={lander_styles.hero_image}>
                 <Image src={'/images/background_circle.png'} alt="logo" width={475} height={475} className={lander_styles.grid_image}/>
@@ -26,3 +26,4 @@ export default function Lander() {
 
     )
 }
+

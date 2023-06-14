@@ -31,6 +31,10 @@ a {
   background-color: #FAA017;
 }
 
+.btn-big {
+  padding: 20px 30px;
+}
+
 .btn-outline {
   border: 1px solid #D5D5D5;
 }
